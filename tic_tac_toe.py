@@ -2,7 +2,15 @@
 
 # create, print, label game board
 def make_board():
-    pass
+    print "     |     |     \n"
+    print "     |     |     \n"
+    print "-----------------\n"
+    print "     |     |     \n"
+    print "     |     |     \n"
+    print "-----------------\n"
+    print "     |     |     \n"
+    print "     |     |     \n"
+
 
 # user is player one, ai is player two
 def turns():
@@ -14,4 +22,4 @@ def ai_calc():
 
 # main method
 def main():
-    pass
+    make_board()
