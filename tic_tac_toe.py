@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # play tic tac toe against an ai
 
 # create, print, label game board
@@ -23,3 +24,6 @@ def ai_calc():
 # main method
 def main():
     make_board()
+
+if __name__ == "__main__":
+    main()
